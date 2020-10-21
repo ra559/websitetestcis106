@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+html,body{
+background-color:#0080ff;
+
+}
+
+.jumbotron{
+	font-size: 6em;
+	background-color: #343A40;
+	color: #0080ff;
+	font-family: 'Fredoka One', cursive;
+	border-radius: 0px;
+}
+h1{
+	padding: 100px 40px !important;
+}
+.row{
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+.row p{
+	font-size: 18px;
+}
+.col-sm iframe,p{
+	text-align: justify;
+	line-height: 1.5em;
+	color: white;
+}
+
+.col-sm h3{
+	color: white;
+}
+img{
+	text-align: center;
+}
+.navbar .container{
+	margin-top: 2%;
+	margin-left: 30%;
+}
+.nav-link{
+	font-size: 20px;
+}
+h3{
+	font-size: 32px;
+}
+.dropdown-menu{
+	background-color: #343A40;
+	border: 0px;
+}
+.dropdown-item{
+	color: rgba(255,255,255,.5);
+}
+.dropdown-item:hover{
+	color: #007bff;
+	background-color: #343A40;
+}
+
+@media (max-width:1060px) {
+	.jumbotron{
+		font-size: 4em;
+
+
+	}
+}
+@media (max-width:538px) {
+	.jumbotron{
+		font-size: 3em;
+
+	}
+}
+
+@media (max-width:410px) {
+	.jumbotron{
+		font-size: 2em;
+
+	}
+}
+
+@media (max-width:280px) {
+	.jumbotron{
+		font-size: 1.5em;
+
+	}
+}
+@media (max-width:987px) {
+	.navbar .container{
+		margin-left: 0%;
+	}
+	.navbar .navbar-toggler{
+		margin-top: 2% !important;
+	}
+}
+@media (max-width:995px) {
+	h3{
+		font-size: 28px;
+	}
+	.row p{
+		font-size: 16px;
+	}
+}
+@media (max-width:760px) {
+	h3{
+		font-size: 24px;
+	}
+	.row p{
+		font-size: 14px;
+	}
+}

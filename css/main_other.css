@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+html,body{
+color: #343A4;
+
+}
+.container-custom-body{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+h1{
+	font-family: Rubik, Serif;
+	font-weight: normal;
+	font-size: 4em;
+	}
+	
+h2, .lead{
+	font-family: Rubik, Serif;
+	font-weight: light;
+}
+
+p,body,span{
+	font-family: Karla, Serif;
+	line-height: 3vh;
+}
+
+
+.dropdown-item{
+	color: white;
+	background-color: #343A40;
+}
+.dropdown-item:hover{
+
+}
+.dropdown-menu{
+	background-color: #343A40;
+	border: 0px;
+}
+.cmds{
+	font-family: "Courier New";
+	background-color: #49535a;
+	color: white;
+	padding-left: .5%;
+	padding-right: .5%;
+	border-radius: 2px;
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+h3{
+	background-color: #0c5460;
+	color: whitesmoke;
+	padding: 1%;
+}
